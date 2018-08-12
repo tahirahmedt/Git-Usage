@@ -1,0 +1,80 @@
+git --version
+
+//Setting global configuration: helps other know your peers who is doing what
+git config --global user.name "tahirahmedt"
+git config --global user.email "tahirahmedt97@gmail.com"
+
+//list all global config values
+git config --list
+
+//use help
+git help config
+git add config
+
+//Existing project on your machine
+git init //initialises .git file
+
+removing .git directory removes it from git
+
+touch .gitignore
+//all files that you dont want to be accessible to all people
+
+//adding files to staging area
+git add -A //adds all files
+
+//remove files from staging area
+git reset
+
+//files in the staging are shoul be committe
+git commit -m "message"
+
+
+//cloning repository
+
+git clone "url"
+
+/information
+git remote -v 
+//locatoin of repo on local machine
+
+git branch -a
+//branch info
+
+git diff //changes made in the files
+
+push it using add and commit messages
+
+Pull gets the updates from the git source
+
+git pull origin master
+
+
+//Working on branches
+
+
+git branch "new branch name"
+
+use the new branch
+
+git checkout "new branch name"
+
+git push -u origin calc-divide
+* indicates current branch
+
+//after unit tests
+$ git checkout master
+
+//pull changes
+$git pull origin master
+
+git branch --merge //lists all the merged branches
+
+git merger "branch to be merged"
+
+git push origin master
+
+git branch -d "branch to be deleted"
+
+git branch -a //lists all branches
+
+git push origin --delete "branch to be deleted"
